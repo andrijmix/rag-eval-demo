@@ -1,0 +1,15 @@
+question,expected_doc,expected_answer
+How long do I have to ask for a full refund?,refunds,Customers can request a full refund within 30 days of the first payment.
+Are monthly plans refunded after 30 days?,refunds,Monthly plans are not refunded after the 30 day window.
+How much does the Team plan cost?,pricing,The Team plan costs 79 dollars per month and includes 20 projects and priority email support.
+What uptime does Northwind guarantee?,sla,Northwind guarantees 99.9 percent monthly uptime for Team and Enterprise plans.
+What credit do I get if uptime is missed?,sla,If uptime falls below the guarantee customers receive a service credit of 10 percent of the monthly fee.
+Which encryption is used for data at rest?,security,All data is encrypted at rest with AES-256 and in transit with TLS 1.3.
+Do you have SOC 2?,security,Northwind is audited annually for SOC 2 Type II.
+What is the API rate limit?,api_limits,The public API allows 600 requests per minute per API key.
+What happens when I exceed the rate limit?,api_limits,Requests above the limit receive an HTTP 429 response with a Retry-After header.
+Is there an onboarding call for the Team plan?,onboarding,Team and Enterprise customers get a free 45 minute onboarding call.
+Can I get my money back after six weeks?,refunds,Monthly plans are not refunded after the 30 day window.
+Is my data safe?,security,All data is encrypted at rest with AES-256 and in transit with TLS 1.3.
+How many calls per minute can I make?,api_limits,The public API allows 600 requests per minute per API key.
+Do I get compensation if the service goes down?,sla,If uptime falls below the guarantee customers receive a service credit of 10 percent of the monthly fee.
